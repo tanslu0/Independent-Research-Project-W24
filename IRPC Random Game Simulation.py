@@ -4,7 +4,7 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 
-n = 6   #SIZE OF GRAPH (n > 500 takes a long time to process)
+n = 6   #SIZE OF GRAPH (n > 250 takes a long time to process)
 games = 10   #NUMBER OF GAMES SIMULATED
 baselist = [0]
 redWinList = []
