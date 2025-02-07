@@ -39,7 +39,7 @@ def gameSim(blue,red,edges,n,winList):
     blueClique = list(nx.find_cliques(nxBlue))
     blueLargest = len(max(blueClique, key=len))
     #nx.draw(nxBlue)
-    #plt.show()    #UNCOMMENT TO SEE SOMETHING FUNNY (with large n)
+    #plt.show()    #UNCOMMENT TO SEE SOMETHING INTERESTING (with large n)
     npRed = np.array(red)
     nxRed = nx.from_numpy_array(npRed)
     redClique = list(nx.find_cliques(nxRed))
