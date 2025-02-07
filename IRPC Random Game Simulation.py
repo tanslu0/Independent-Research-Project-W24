@@ -4,7 +4,7 @@ import numpy as np
 import networkx as nx
 
 n = 6   #SIZE OF GRAPH
-games = 100000   #NUMBER OF GAMES SIMULATED
+games = 10   #NUMBER OF GAMES SIMULATED
 baselist = [0]
 redWinList = []
 redWins = 0
