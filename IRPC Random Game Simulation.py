@@ -2,6 +2,7 @@ import random
 import math
 import numpy as np
 import networkx as nx
+import matplotlib as plt
 
 n = 6   #SIZE OF GRAPH
 games = 10   #NUMBER OF GAMES SIMULATED
